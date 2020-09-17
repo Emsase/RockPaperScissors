@@ -1,0 +1,14 @@
+Challenge have been developed correctly using the indicated technologies: java8, maven, git, ... In the git case, 
+
+In the case of git I usually work creating branches with the identifiers of the tasks in jira and documenting it respectively, but in this case, since there are no defined tasks, I have uploaded a single commit with all the assessments.
+
+The two parts are working properly as specified in the challenge requirements.
+
+I would like to comment that I have doubts about how to implement two parts:
+
+* In the controller right now there is some logic, and I prefer to leave all the logic in the service layer, but in this case I thought it was better this way, It was more clean.
+
+* I had to change the implementation of the random number generation to later have more code coverage in the tests.
+
+
+The coverage is 80%, it is a very high coverage. If it were necessary to increase the coverage, tests could be done on the controller layer.
